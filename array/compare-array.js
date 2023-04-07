@@ -8,7 +8,7 @@ var arr2 = [5,10,8,9,4];
 const is_same = arr1.length == arr2.length && arr1.every((curElement) => {
        
        if(arr2.indexOf(curElement) > -1){
-              return (curElement = arr2[arr2.indexOf(curElement)])
+              return true;   // changes
        }
 })
 
